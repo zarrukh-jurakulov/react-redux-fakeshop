@@ -1,0 +1,37 @@
+.productCard {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-gap: 10px;
+    grid-template-rows: 400px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img {
+    width: 230px;
+    height: 230px;
+    
+    
+}
+
+.card-body {
+    border-top: 1px solid lightgray;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
